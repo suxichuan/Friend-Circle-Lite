@@ -81,7 +81,7 @@ def check_feed(blog_url, session):
         ('feed2', '/feed.xml'), # 2024-07-26 添加 /feed.xml内容的支持
         ('feed3', '/feed/'),
         ('index', '/index.xml'), # 2024-07-25 添加 /index.xml内容的支持
-        ('rss', '/feed.xml')
+        ('rss', '/rss/feed.xml')
     ]
 
     for feed_type, path in possible_feeds:
